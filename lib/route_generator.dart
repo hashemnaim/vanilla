@@ -1,6 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:food_delivery_app/src/pages/point.dart';
-
 import 'src/models/route_argument.dart';
 import 'src/pages/cart.dart';
 import 'src/pages/category.dart';
@@ -21,6 +19,7 @@ import 'src/pages/order_success.dart';
 import 'src/pages/pages.dart';
 import 'src/pages/payment_methods.dart';
 import 'src/pages/paypal_payment.dart';
+import 'src/pages/point.dart';
 import 'src/pages/profile.dart';
 import 'src/pages/razorpay_payment.dart';
 import 'src/pages/reviews.dart';

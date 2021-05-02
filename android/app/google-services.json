@@ -8,12 +8,20 @@
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:867049430214:android:32e01f01966d32dcfe4bc7",
+        "mobilesdk_app_id": "1:867049430214:android:673ae024ee2cda05fe4bc7",
         "android_client_info": {
           "package_name": "com.abdallah.vanilla"
         }
       },
       "oauth_client": [
+        {
+          "client_id": "867049430214-osmu7a1ns7c7rm1bdf9flbn5h6rtcqod.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.abdallah.vanilla",
+            "certificate_hash": "b4398e91d840be3d3c9777e44176ed1d836919f7"
+          }
+        },
         {
           "client_id": "867049430214-5vbupe3labv14r8mh4fvhqbvko7sth2j.apps.googleusercontent.com",
           "client_type": 3
@@ -35,7 +43,7 @@
               "client_id": "867049430214-sb7vr4it3769m9qb3q891f0vqm9h06se.apps.googleusercontent.com",
               "client_type": 2,
               "ios_info": {
-                "bundle_id": "com.abdallah.vanilla"
+                "bundle_id": "com.vanilla.restaurants"
               }
             }
           ]
