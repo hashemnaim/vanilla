@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:food_delivery_app/src/pages/point.dart';
 import 'src/models/route_argument.dart';
 import 'src/pages/cart.dart';
 import 'src/pages/category.dart';
@@ -46,6 +47,8 @@ class RouteGenerator {
         return MaterialPageRoute(builder: (_) => LoginWidget());
       case '/Profile':
         return MaterialPageRoute(builder: (_) => ProfileWidget());
+                 case '/Points':
+        return MaterialPageRoute(builder: (_) => PointScreen());
       case '/ForgetPassword':
         return MaterialPageRoute(builder: (_) => ForgetPasswordWidget());
       case '/Pages':

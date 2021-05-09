@@ -16,7 +16,7 @@ class CardWidget extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      width: 292,
+      // width: 492,
       margin: EdgeInsets.only(left: 20, right: 20, top: 15, bottom: 20),
       decoration: BoxDecoration(
         color: Theme.of(context).primaryColor,

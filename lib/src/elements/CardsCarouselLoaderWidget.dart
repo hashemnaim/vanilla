@@ -10,7 +10,7 @@ class CardsCarouselLoaderWidget extends StatelessWidget {
     return Container(
       height: 288,
       child: ListView.builder(
-        scrollDirection: Axis.horizontal,
+        scrollDirection: Axis.vertical,
         itemCount: 3,
         itemBuilder: (context, index) {
           return Container(

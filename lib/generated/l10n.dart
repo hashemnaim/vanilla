@@ -982,7 +982,15 @@ class S {
       args: [],
     );
   }
-
+   /// `Points`
+  String get points {
+    return Intl.message(
+      'Points',
+      name: 'points',
+      desc: '',
+      args: [],
+    );
+  }
   /// `Log out`
   String get log_out {
     return Intl.message(

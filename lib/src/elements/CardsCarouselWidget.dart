@@ -29,7 +29,7 @@ class _CardsCarouselWidgetState extends State<CardsCarouselWidget> {
         ? CardsCarouselLoaderWidget()
         : SingleChildScrollView(
                   child: Container(
-              // height: 400,
+
               child: Column(children: [
               GestureDetector(
                 onTap: () {

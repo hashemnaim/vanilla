@@ -47,9 +47,12 @@ class _HomeWidgetState extends StateMVC<HomeWidget> {
             return Padding(
               padding: const EdgeInsets.symmetric(vertical: 10),
               child: Container(
-                height: 50,
-                width: 50,
-                  child: Image.asset("assets/img/logo.png",fit: BoxFit.fill,)),
+                  height: 50,
+                  width: 50,
+                  child: Image.asset(
+                    "assets/img/logo.png",
+                    fit: BoxFit.fill,
+                  )),
             );
             // Text(
             //   value.appName ?? S.of(context).home,
