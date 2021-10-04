@@ -15,7 +15,7 @@ version: 2.5.0
 code: 8
 
 environment:
-  sdk: ">=2.8.0 <3.0.0"
+  sdk: ">=2.2.0 <3.0.0"
 module:
   androidX: true
 dependencies:
